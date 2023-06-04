@@ -1,7 +1,7 @@
 (ns otus-04.homework.crossword-puzzle-test
   (:require
-   [clojure.test :refer :all]
-   [otus-04.homework.crossword-puzzle :refer [solve]]))
+    [clojure.test :refer :all]
+    [otus-04.homework.crossword-puzzle-teacher :refer [solve]]))
 
 (deftest solve-test
   (is (= (solve "+-++++++++

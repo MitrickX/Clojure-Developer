@@ -1,4 +1,4 @@
-(ns otus-04.homework.crossword-puzzle
+(ns otus-04.homework.crossword-puzzle-mine
   (:require [clojure.string :as str]))
 
 (defn split-by-mask
